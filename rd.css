@@ -1,0 +1,28 @@
+body{
+    background-color: black;
+}
+.g:nth-child(odd){
+    background-color: green;
+}
+.g:nth-child(even){
+    background-color: rgb(128, 0, 0);
+}
+.g{ display: inline-block;
+    width: 100px;
+    height: 100px;
+    
+}
+.g:hover:nth-child(odd) {
+    background-color: yellowgreen;
+    width: 200px;
+    ;}
+    .g:hover:nth-child(even) {
+        background-color: red;
+        width: 200px;}
+#word {  text-align: center;
+            color: black;
+            font-family: 'Arial Black', Gadget, sans-serif; 
+            font-size: 60px; 
+        }
+
+        
